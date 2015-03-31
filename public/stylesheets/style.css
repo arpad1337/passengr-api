@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#chat-area {
+	border:1px solid blue;padding:20px;margin:20px 0;
+}
+
+#chat-area > .own {
+	color: green;
+}
+
+#chat-area > .notification {
+	color:  gray;
+}
+
+#chat-area > .partner {
+	color: red;
+}
